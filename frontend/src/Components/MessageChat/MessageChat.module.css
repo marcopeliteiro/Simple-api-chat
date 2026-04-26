@@ -1,0 +1,43 @@
+.chat {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  height: 100vh;
+  flex-grow: 1;
+  padding: 5px;
+}
+
+.header {
+  border: 2px solid black;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.messages {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  flex-grow: 1;
+}
+
+.sender {
+  border: 2px solid black;
+  max-width: fit-content;
+  justify-self: flex-end;
+}
+
+.receiver {
+  border: 2px solid red;
+  max-width: fit-content;
+}
+
+.inputsContainer {
+  display: flex;
+  gap: 5px;
+  justify-content: space-between;
+}
+
+.messageInput {
+  flex-grow: 1;
+}

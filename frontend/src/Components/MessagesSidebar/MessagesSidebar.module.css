@@ -1,0 +1,22 @@
+.sidebar {
+  display: flex;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.firstbar {
+  border: 2px solid black;
+}
+
+.users {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  border: 2px solid black;
+  padding: 5px;
+}
+
+.username {
+  border: 2px solid black;
+  padding: 10px;
+}
